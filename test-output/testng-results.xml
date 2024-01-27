@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-11T11:54:51 IST" name="Practice Suite" finished-at="2023-06-11T11:55:23 IST" duration-ms="32683">
+    <groups>
+    </groups>
+    <test started-at="2023-06-11T11:54:51 IST" name="Test Basics 1" finished-at="2023-06-11T11:55:23 IST" duration-ms="32683">
+      <class name="testCases.TestCase01">
+        <test-method is-config="true" signature="configure(java.lang.String)[pri:0, instance:testCases.TestCase01@4a883b15]" started-at="2023-06-11T11:54:51 IST" name="configure" finished-at="2023-06-11T11:55:02 IST" duration-ms="11185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testWifinameChange(java.lang.reflect.Method)[pri:0, instance:testCases.TestCase01@4a883b15]" started-at="2023-06-11T11:55:02 IST" name="testWifinameChange" description="Invalid Login Scenario with wrong username and password." finished-at="2023-06-11T11:55:11 IST" duration-ms="8855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.TestCase01.testWifinameChange(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWifinameChange -->
+        <test-method is-config="true" signature="configure(java.lang.String)[pri:0, instance:testCases.TestCase01@4a883b15]" started-at="2023-06-11T11:55:11 IST" name="configure" finished-at="2023-06-11T11:55:16 IST" duration-ms="5224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testWifinameChange2()[pri:0, instance:testCases.TestCase01@4a883b15]" started-at="2023-06-11T11:55:16 IST" name="testWifinameChange2" finished-at="2023-06-11T11:55:23 IST" duration-ms="7072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWifinameChange2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase01@4a883b15]" started-at="2023-06-11T11:55:23 IST" name="tearDown" finished-at="2023-06-11T11:55:23 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase01 -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
